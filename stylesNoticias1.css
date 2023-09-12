@@ -1,0 +1,132 @@
+.img-fluid{
+    width: 650px;
+    height: 800px;
+}
+.img-fluid-poster
+{
+  width: 650px;
+    height: 800px;
+}
+.img-fluid:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para el encabezado */
+  .navbar {
+    margin-bottom: 20px;
+    
+  }
+  .container {
+    padding: 20px;
+  }
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  h2
+  {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  hr
+  {
+    font-weight: bold;
+  }
+  h1
+  {
+    font-weight: bold;
+  }
+  .espacio-en-blanco {
+    height: 100px; /* Puedes ajustar el valor según sea necesario para el espacio deseado */
+}
+/* Agrega espacio entre los comentarios y los bordes */
+#comentarios {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Estilo para cada comentario */
+.comentario {
+    margin-bottom: 10px;
+}
+
+.fuente1
+{
+    font-weight: bold;
+}
+.infoFuente
+{
+    color: gray;
+    font-size: 10px;
+}
+h3
+{
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+}
+h4
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.fechaOpinionesUsuarios
+{
+    color: gray;
+    font-size: 10px;
+}
+.justificado
+{
+    text-align: justify;
+}
+h2
+{
+  font-size: 20px;
+    text-align: center;
+}
+
+.background-image {
+  background-image: url('Nueva carpeta/fondoNoticia1.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover;
+  background-position: center center;
+  height: 80vh; /* Altura de la imagen de fondo para cubrir toda la pantalla */
+}
+
+.centered-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.imagen-fondo {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  height: auto; /* Ajusta la altura automáticamente */
+}
+
+.deporte
+{
+  font-weight: bold;
+  font-size: 50px;
+  font-family: fantasy;
+}

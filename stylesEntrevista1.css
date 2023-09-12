@@ -1,0 +1,91 @@
+.navbar {
+    margin-bottom: 20px;
+    
+  }
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+.background-image {
+    background-image: url('Nueva carpeta/entrevista2.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    filter: grayscale(60%);
+    background-position: center center;
+    height: 80vh; /* Altura de la imagen de fondo para cubrir toda la pantalla */
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.imagen-fondo {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+h1{
+    font-weight: bold;
+}
+.img-fluid-poster
+{
+    width: 800px;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  .fuente2
+{
+    font-weight: bold;
+}
+.infoFuente
+{
+    color: gray;
+    font-size: 10px;
+}
+.justificado
+{
+    text-align: justify;
+}
+
+.img-fluid{
+    width: 650px;
+    height: 600px;
+}
+.img-fluid:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s;
+}
+h2
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.deporte
+{
+  font-weight: bold;
+  font-size: 50px;
+  font-family: fantasy;
+}
+.linea
+{
+    font-weight: bold;
+    color: white;
+   
+}
